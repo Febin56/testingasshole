@@ -3,7 +3,6 @@ const HDWalletProvider = require("truffle-hdwallet-provider");
 require('babel-register');
 require('babel-polyfill');
 module.exports = {
-  build: "npm run dev",
   networks: {
     development: {
       host: "127.0.0.1",
