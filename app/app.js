@@ -1,4 +1,4 @@
-import token_artifacts from './build/contracts/Token.json';
+import token_artifacts from '../build/contracts/Token.json';
 
 var pubnub = new PubNub({
   publishKey : '__YOUR_PUBNUB_PUBLISH_KEY__',
