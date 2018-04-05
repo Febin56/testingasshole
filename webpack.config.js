@@ -1,6 +1,6 @@
 
-const path = require('path');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
+const path = require('path')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
   entry: './app/app.js',
@@ -23,7 +23,7 @@ module.exports = {
       }
     ],
     loaders: [
-      { test: /\.json?$/, loader: 'babel', },
+      { test: /\.json?$/, loader: 'babel' },
       {
         test: /\.js$/,
         exclude: /(node_modules|bower_components)/,
@@ -35,9 +35,9 @@ module.exports = {
       }
     ]
   },
-devServer: {
-    port: process.env.PORT || 8080,
-    host: '0.0.0.0',
-    disableHostCheck: true
-  }
+  devServer: {
+  port: process.env.PORT || 8080,
+  host: '0.0.0.0',
+  disableHostCheck: true
+}
 }

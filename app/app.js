@@ -2,7 +2,7 @@
 import { default as Web3} from 'web3';
 import { default as contract } from 'truffle-contract';
 
-import token_artifacts from '../build/contracts/Token.json';
+import token_artifacts from './Token.json';
 
 var pubnub = new PubNub({
   publishKey : '__YOUR_PUBNUB_PUBLISH_KEY__',
